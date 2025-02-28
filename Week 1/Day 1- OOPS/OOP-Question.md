@@ -29,7 +29,7 @@ How does super() work in inheritance?
 
 super() is used to call the parent class constructor inside a subclass constructor.
 Example:
-``
+```
 class Parent {
     Parent() {
         System.out.println("Parent constructor");
@@ -48,18 +48,18 @@ public class Main {
         Child c = new Child();
     }
 }
-``
+```
 
 - Output:
-``Parent constructor
-Child constructor``
+```Parent constructor
+Child constructor```
 
 2. What is runtime polymorphism?
 
 - Runtime polymorphism is method overriding, where a subclass provides a specific implementation of a method from the parent class.
 Example:
 
-``class Animal {
+```class Animal {
     void sound() {
         System.out.println("Some sound...");
     }
@@ -77,7 +77,7 @@ public class Main {
         Animal obj = new Dog();
         obj.sound(); // Output: Bark!
     }
-}``
+}```
 
 3. Why is encapsulation important?
 
