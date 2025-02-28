@@ -5,7 +5,7 @@
 
 2. Polymorphism
 * Method Overloading (Compile-time Polymorphism)
-- Multiple methods with the same name but different parameters.
+* Multiple methods with the same name but different parameters.
 
 * Method Overriding (Runtime Polymorphism)
 - A subclass provides a specific implementation of a method already defined in the parent class.
@@ -25,9 +25,9 @@
 - An abstract class can have both abstract (no implementation) and concrete (implemented) methods, while an interface can only have abstract methods (before Java 8).
 - A class can extend only one abstract class but can implement multiple interfaces.
 - Abstract classes can have constructors, but interfaces cannot.
-How does super() work in inheritance?
 
-super() is used to call the parent class constructor inside a subclass constructor.
+2. How does super() work in inheritance?
+- super() is used to call the parent class constructor inside a subclass constructor.
 Example:
 ```
 class Parent {
@@ -54,7 +54,7 @@ public class Main {
 ```Parent constructor
 Child constructor```
 
-2. What is runtime polymorphism?
+3. What is runtime polymorphism?
 
 - Runtime polymorphism is method overriding, where a subclass provides a specific implementation of a method from the parent class.
 Example:
@@ -79,7 +79,7 @@ public class Main {
     }
 }```
 
-3. Why is encapsulation important?
+4. Why is encapsulation important?
 
 - Encapsulation hides data from direct modification.
 - It ensures data security by allowing controlled access via getter and setter methods.
