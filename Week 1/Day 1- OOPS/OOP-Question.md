@@ -28,7 +28,7 @@
 
 2. How does super() work in inheritance?
 - super() is used to call the parent class constructor inside a subclass constructor.
-Example:
+- Example:
 ```
 class Parent {
     Parent() {
@@ -51,8 +51,10 @@ public class Main {
 ```
 
 - Output:
-```Parent constructor
-Child constructor```
+```
+Parent constructor
+Child constructor
+```
 
 3. What is runtime polymorphism?
 
@@ -77,7 +79,8 @@ public class Main {
         Animal obj = new Dog();
         obj.sound(); // Output: Bark!
     }
-}```
+}
+```
 
 4. Why is encapsulation important?
 
