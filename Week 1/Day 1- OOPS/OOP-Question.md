@@ -5,7 +5,7 @@
 
 2. Polymorphism
 * Method Overloading (Compile-time Polymorphism)
-* Multiple methods with the same name but different parameters.
+- Multiple methods with the same name but different parameters.
 
 * Method Overriding (Runtime Polymorphism)
 - A subclass provides a specific implementation of a method already defined in the parent class.
